@@ -1,0 +1,47 @@
+name: pokedex
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  http: ^1.2.2
+  google_fonts: ^6.2.1
+  cached_network_image: ^3.3.1
+  flutter_svg: ^2.0.10+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.2
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.4.1
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "public/pokemon/images/logo-type.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/pokemons/
+    - assets/images/logo-android.png
+
+
+flutter_native_splash:
+  color: "#E84A5F"
+  image: public/pokemon/images/logo-type.png
+  android: true
+  ios: true
+  web: true
+  fullscreen: true
+
+
