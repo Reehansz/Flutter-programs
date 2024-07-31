@@ -18,6 +18,6 @@ samples, guidance on mobile development, and a full API reference.
 # Flutter-programs
 In class programs
 <h4>Also has a pokedex project which is a pokemon based application to display different pokemons with thier info</h4>
-<h6>Thanks to Shantesh to help me out with these programs and projects</h6>
-<a>https://github.com/ShanteshRH</a>
+<h6><a href='https://github.com/ShanteshRH'></a>Thanks to Shantesh to help me out with these programs and projects</h6>
+
 
